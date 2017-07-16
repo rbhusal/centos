@@ -1,0 +1,15 @@
+ directory '/tmp/newdirectory' do
+    owner 'root'
+    group 'root'
+    mode '0755'
+
+end
+
+
+file '/tmp/newdirectory/index.php' do
+     owner 'root'
+     group 'root'
+     mode '0755'
+
+end
+
